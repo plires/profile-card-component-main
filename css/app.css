@@ -45,7 +45,6 @@ body {
 }
 
 .card {
-	/*border: solid 1px red;*/
 	width: 325px;
 	border-radius: 15px;
 	background: white;
@@ -119,6 +118,24 @@ body {
 	font-size: 0.75rem;
 	color: var(--dark-gray);
 	font-weight: 400;
+}
+
+@media screen and (min-width: 1140px) {
+
+	.top {
+		background-size: 93%;
+		background-position: -574% 140%;
+	}
+
+	.bottom {
+		background-size: 95%;
+		background-position: 810% -55%;
+	}
+
+	.card {
+	width: 350px;
+}
+  
 }
 
 
